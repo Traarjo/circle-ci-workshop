@@ -15,6 +15,3 @@ jobs:
       - store_artifacts:
           path: /code/test-results
           destination: prefix
-       - store_artifacts:
-          path: build/libs
-          destination: prefix
